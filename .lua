@@ -5,6 +5,7 @@ local playerGui = player:WaitForChild("PlayerGui")
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "AdvancedTextCopierGui"
 screenGui.Parent = playerGui
+screenGui.Enabled = false
 
 local textBoxAtas = Instance.new("TextBox")
 textBoxAtas.Name = "InputTextBox"
@@ -35,6 +36,15 @@ end
 function sp.getTextbox2()
     return textBoxBawah.Text
 end
+
+function sp.showGUI()
+    screenGui.Enabled = true
+end
+
+function sp.hideGUI()
+    screenGui.Enabled = false
+end
+
 
 function sp.buttonTrigger(func)
 copyButton.MouseButton1Click:Connect(function()
