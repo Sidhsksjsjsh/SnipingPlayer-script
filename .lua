@@ -5,7 +5,7 @@ local playerGui = player:WaitForChild("PlayerGui")
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "AdvancedTextCopierGui"
 screenGui.Parent = playerGui
-screenGui.Enabled = false
+ScreenGui.Enabled = false
 
 local textBoxAtas = Instance.new("TextBox")
 textBoxAtas.Name = "InputTextBox"
