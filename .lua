@@ -12,6 +12,7 @@ textBoxAtas.Name = "InputTextBox"
 textBoxAtas.Size = UDim2.new(0, 300, 0, 50)
 textBoxAtas.Position = UDim2.new(0.5, -150, 0.2, -25)
 textBoxAtas.PlaceholderText = "GameId here"
+textBoxAtas.Text = game.PlaceId
 textBoxAtas.Parent = screenGui
 
 local textBoxBawah = Instance.new("TextBox")
