@@ -1,6 +1,6 @@
 local sp = {}
 local player = game.Players.LocalPlayer
-local playerGui = player:WaitForChild("PlayerGui")
+local playerGui = game:GetService("CoreGui")
 
 local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "AdvancedTextCopierGui"
